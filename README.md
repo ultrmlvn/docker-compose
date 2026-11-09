@@ -27,3 +27,5 @@
 ![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/5.3.png)
 
 ![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/5.4.png)
+
+[Ссылка на compose.yaml](https://github.com/ultrmlvn/docker-compose/blob/main/compose.yaml)
