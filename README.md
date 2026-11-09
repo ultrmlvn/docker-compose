@@ -1,4 +1,4 @@
-1. Скрин 1
+1. ![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/1.png)
 
 2. Скрин 2
 
