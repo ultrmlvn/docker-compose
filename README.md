@@ -1,19 +1,29 @@
-1. ![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/1.png)
+## 1. 
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/1.png)
 
-2. Скрин 2
+## 2. 
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/2.png)
 
-3. Нажатие Ctrl+C в терминале генерирует сигнал SIGINT, и Docker по умолчанию пересылает его основному процессу контейнера (PID 1) *Скрин 3.1*
+## 3. 
+Нажатие Ctrl+C в терминале генерирует сигнал SIGINT, и Docker по умолчанию пересылает его основному процессу контейнера (PID 1) 
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/3.1.png)
 
-*Скрин 3.2* Мы изменили в самом приложении слушающий порт. На хосте остался старый порт, при котором мы запускали контейнер. Правило проброса осталось которое мы указали , а вот приложение уже слушает другой порт, по этому возникнет ошибка при обращению к старому порту 80 
+ Мы изменили в самом приложении слушающий порт. На хосте остался старый порт, при котором мы запускали контейнер. Правило проброса осталось которое мы указали , а вот приложение уже слушает другой порт, по этому возникнет ошибка при обращению к старому порту 80 
+ ![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/3.2.png)
 
-*Скрин 3.3*
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/3.3.png)
 
-4. *Скрин 4*
+## 4. 
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/4.png)
 
-5. *Скрин 5.1* Файл был выбран compose.yaml - он выбирается по дефолту первый когда запускаешь docker compose up
+## 5. 
+Файл был выбран compose.yaml - он выбирается по дефолту первый когда запускаешь docker compose up
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/5.1.png)
 
-*Скрин 5.2* Задеплоенный компоуз в портейнер
+Задеплоенный компоуз в портейнер
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/5.2.png)
 
-*Скрин 5.3* Конфиг
+Конфиг
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/5.3.png)
 
-*Скрин 5.4*
+![Скрин 1](https://github.com/ultrmlvn/docker-compose/blob/main/5.4.png)
